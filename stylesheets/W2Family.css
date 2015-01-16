@@ -1,0 +1,41 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: helvetica neue, arial, sans-serif;
+  color: white;
+  background-color: black;
+  background-image: url(../images/lila1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+h2 {
+  border-bottom: 25px solid gray;
+  border-left: 10px solid white;
+}
+a { 
+  color: orange;
+}
+a:hover {
+  color: purple;
+}
+p, li { 
+  font-size: 16px;
+  line-height: 24px;
+}
+img {
+  float: right;
+}
+#title {
+  float: left;
+}
+#poster {
+  float: right;
+}
+#summary {
+  clear: both;
+  background-color: gray;
+  padding: 20px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
