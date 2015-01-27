@@ -3,26 +3,22 @@
 }
 
 .jumbotron {
-    margin-bottom: 0px;
-    background-image: url(../images/puppylove.png);
-    background-position: 0% 10%;
-    background-size: cover;
-    background-repeat: no-repeat;
     color: white;
+    background-color: grey;
     text-shadow: black 0.3em 0.3em 0.3em;
     border-color: black;
-    opacity: .75;}
+    opacity: .85;
+  }
 
 #p1 {
 margin-top: 25px;
 }
 body {
-  width: 960px;
   margin: auto;
   font-family: 'Coming Soon', helvetica neue, arial, sans-serif;
   color: black;
-  background-color: lightblue;
-/*  background-image: url(../images/puppylove.png);*/
+  background-color: white;
+  background-image: url(../images/puppylove.png);
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;

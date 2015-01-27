@@ -10,45 +10,50 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <!-- Font Awesome -->
-     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- My own styles -->
     <link rel="stylesheet" href="stylesheets/petmeetupv2.css">
   </head>
   <body>
     <div class="container">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+      <nav class="navbar navbar-default" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-      <button type="button" class="btn btn-default navbar-btn"><a href="W2Family.html">Sign in</a></button>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <!-- <button type="button" class="btn btn-default navbar-btn"><a href="W2Family.html">Sign in</a></button> -->
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">DmD</a>
+        </div>
 
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">DmD</a>
-    </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+              <li>
+              <a href="index.html">
+              <!--   <i class="fa fa-home"></i> -->
+                Sign-In
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <!-- <li class="active"><a href="#"><bold>Join Now </bold><span class="sr-only">(current)</span></a></li> -->
-       <!--  <li><a href="#">Link</a></li> -->
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Fido's</a></li>
-            <li><a href="#">Barks from a Fido</a></li>
-            <li><a href="#">Send treats to a Fido</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Find a Fido!</a></li>
-            <!-- <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li> -->
+              Menu 
+              <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Fido's</a></li>
+                <li><a href="#">Barks from a Fido</a></li>
+                <li><a href="#">Send treats to a Fido</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Find a Fido!</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
+
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Fido's Best Friend">
@@ -57,110 +62,80 @@
       </form>
      
       <ul class="nav navbar-nav navbar-right">
-     <!--    <li><a href="#">Link</a></li> -->
+        <li>
+              <a href="#">
+                <i class="fa fa-user"></i>
+                Join Now
+              </a>
+            </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">About DmD <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="index.html">About Us</a></li>
             <li><a href="#">FAQ</a></li>
             <li><a href="mailto:rchoi2016@kellogg.northwestern.edu">Contact Us</a></li>
-            <!-- <li class="divider"></li>
-            <li><a href="#">Separated link</a></li> -->
           </ul>
         </li>
       </ul>
-      <button type="button" class="btn btn-info navbar-btn navbar-right btn-info-text" ><a id="joinnow" href="XXX">Join Now!</a></button></span>
-    </div><!-- /.navbar-collapse -->
+      <!-- <button type="button" class="btn btn-info navbar-btn navbar-right btn-info-text" ><a id="joinnow" href="XXX">Join Now!</a></button> -->
+    <!-- </div>/.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+</div>
+
+
+    <div class="container">
     <div class="jumbotron">
       <h1>Dog Meet Dog</h1>
-      <!-- <h3>Where your best friend can come make new friends!</h3> -->
-    </div>
-    <div class="row">
-      <!-- Put something here -->
-    </div>
-  </div>
+      <h2>Where your best friend can come make new friends!</h2>
+      </div>
+    <P></P>
 
-
-
-
-
-
-
-
- 
-    <div class="container">
-    <div class="row">
-
-        <div class="col-md-9 col-md-offset-2">
-          <!-- here you are offsetting - doesnt always need to add up to 12 -->
-        </div>
-    
-      <h1 class="title text-center">
-        Meet our family!
-        <!-- <span class="family"></span> -->
-<!--         <small class="text-muted">
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star"></i>
-          <i class="fa fa-star-half-o"></i>
-          <i class="fa fa-star-o"></i>
-        </small> -->
-      </h1></div>
-
-
-      <div class="row" style="background-color: #dedef8;
-         box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
-      
+    <div class"row">
+     
+     <div class="col-md-12 text-center" style="background-color: #dedef8;
+         box-shadow: inset 1px -1px 0px #444, inset 0px 1px 1px #444;"> 
+         <h1 class="title text-center">Meet our family!</h1></div>
+      </div>
+<div class="container-fluid">
+      <div class="row">      
+        
         <div class="col-md-4 text-center" style="background-color: #dedef8;
          box-shadow: inset 1px -1px 0px #444, inset 0px 1px 1px #444;">
-          <p><img id="p1" src="images/meena1.jpg" width="250"  height="335" class="imgframe"></p>
+          <p><img id="p1" src="images/meena4.jpg" width="250"  height="335" class="imgframe"></p>
           <h2>Meena</h2>
-          <!-- <p><a href="#" class="btn btn-sm btn-success"><i class="fa fa-shopping-cart"></i> $14.99 Buy in HD</a></p>
-          <p><strong>Genre:</strong> Action</p>
-          <p><strong>Released:</strong> 2014</p> -->
+          </div>
+
+        <div class="col-md-4 text-center" style="background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset 0px 1px 1px #444;">
+        <p><img id="p1" src="images/juno1.jpg" width="250"  height="335"class="imgframe" border="white"></p>
+        <h2>Juno</h2>
         </div>
 
         <div class="col-md-4 text-center" style="background-color: #dedef8;
          box-shadow: inset 1px -1px 1px #444, inset 0px 1px 1px #444;">
-         
-          <p><img id="p1" src="images/juno1.jpg" width="250"  height="335"class="imgframe" border="white"></p>
-           <h2>Juno</h2>
+        <p><img id="p1" src="images/hippo2.jpg" width="250" height="335" class="imgframe"></p>
+        <h2>Hippo</h2>
         </div>
-         <div class="col-md-4 text-center" style="background-color: #dedef8;
-         box-shadow: inset 1px -1px 1px #444, inset 0px 1px 1px #444;">
-         
-          <p><img id="p1" src="images/hippo2.jpg" width="250" height="335" class="imgframe"></p>
-           <h2>Hippo</h2>
-           </div>
-          
-
-
-      <!--   <div class="col-md-3 actors">
-          <h2>Cast</h2>
-          <ul class="list-unstyled">
-            <li><a href="#">Chris Pratt</a> as Peter Quill</li>
-            <li><a href="#">Zoe Saldana</a> as Gamora</li>
-            <li><a href="#">Dave Bautista</a> as Drax</li>
-            <li><a href="#">Vin Diesel</a> as Groot</li>
-            <li><a href="#">Bradley Cooper</a> as Rocket</li>
-          </ul>
-        </div> -->
+      
       </div>
+      
+      <P></P>
+      
       <div class="row">
-        <div class="col-md-9 col-md-offset-2 reviews">
-          <h2 class="page-header">Information</h2>
+        <div class="col-md-8 col-md-offset-2 reviews" style="background-color: #dedef8;
+         box-shadow: inset 1px -1px 1px #444, inset 0px 1px 1px #444;">
+          <h2 class="title text-center">Information</h2>
           <table class="table table-striped table-bordered">
-            <tr>
+            <tr class="active">
               <td><strong>Launch Date:</strong></td>
               <td>TBD</td>
             </tr>
-            <tr>
+            <tr class="info">
               <td><strong>Location:</strong></td>
               <td>Evanston, IL</td>
             </tr>
-            <tr>
+            <tr class="active">
               <td><strong>Format</strong></td>
               <td>iOS and Android</td>
             </tr>
@@ -168,7 +143,6 @@
         </div>
       </div>
     </div>
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Bootstrap -->
