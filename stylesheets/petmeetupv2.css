@@ -18,7 +18,7 @@ body {
   color: black;
   background-color: white;
   background-image: url(../images/puppylove.png);
-  background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  background-size: cover;
+
 }
